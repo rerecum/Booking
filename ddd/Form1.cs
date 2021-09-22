@@ -26,5 +26,14 @@ namespace ddd
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DoWyjazduPozostaloLabel.Text = "Do wyjazdu pozostalo " + (dataPrzyjazdu.Value - dataDzisiaj.Value).Days.ToString() + "dni";
+
+            WyjazdTrwaLabel.Text = "Do wyjazdu pozostalo" + (dataWyjazdu.Value - dataPrzyjazdu.Value).Days.ToString() + "dni";
+
+            KosztLabel.Text = "Koszt wynosi" + (CenaZaDobe.Value * (dataWyjazdu.Value - dataPrzyjazdu.Value).Days).ToString() + "zl";
+        }
     }
 }
