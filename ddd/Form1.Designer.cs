@@ -39,7 +39,7 @@ namespace ddd
             this.label7 = new System.Windows.Forms.Label();
             this.KosztLabel = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dataUrodzenia = new System.Windows.Forms.DateTimePicker();
             this.dataPrzyjazdu = new System.Windows.Forms.DateTimePicker();
             this.dataWyjazdu = new System.Windows.Forms.DateTimePicker();
             this.DoWyjazduPozostaloLabel = new System.Windows.Forms.TextBox();
@@ -139,13 +139,13 @@ namespace ddd
             this.textBox5.Size = new System.Drawing.Size(100, 23);
             this.textBox5.TabIndex = 14;
             // 
-            // dateTimePicker2
+            // dataUrodzenia
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(111, 153);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(218, 23);
-            this.dateTimePicker2.TabIndex = 15;
-            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            this.dataUrodzenia.Location = new System.Drawing.Point(111, 153);
+            this.dataUrodzenia.Name = "dataUrodzenia";
+            this.dataUrodzenia.Size = new System.Drawing.Size(218, 23);
+            this.dataUrodzenia.TabIndex = 15;
+            this.dataUrodzenia.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // dataPrzyjazdu
             // 
@@ -153,6 +153,7 @@ namespace ddd
             this.dataPrzyjazdu.Name = "dataPrzyjazdu";
             this.dataPrzyjazdu.Size = new System.Drawing.Size(218, 23);
             this.dataPrzyjazdu.TabIndex = 16;
+            this.dataPrzyjazdu.ValueChanged += new System.EventHandler(this.dataPrzyjazdu_ValueChanged);
             // 
             // dataWyjazdu
             // 
@@ -229,7 +230,7 @@ namespace ddd
             this.Controls.Add(this.DoWyjazduPozostaloLabel);
             this.Controls.Add(this.dataWyjazdu);
             this.Controls.Add(this.dataPrzyjazdu);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dataUrodzenia);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.KosztLabel);
             this.Controls.Add(this.label7);
@@ -260,7 +261,7 @@ namespace ddd
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label KosztLabel;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dataUrodzenia;
         private System.Windows.Forms.DateTimePicker dataPrzyjazdu;
         private System.Windows.Forms.DateTimePicker dataWyjazdu;
         private System.Windows.Forms.TextBox DoWyjazduPozostaloLabel;
