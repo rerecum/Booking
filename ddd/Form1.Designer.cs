@@ -188,9 +188,25 @@ namespace ddd
             // CenaZaDobe
             // 
             this.CenaZaDobe.Location = new System.Drawing.Point(111, 296);
+            this.CenaZaDobe.Maximum = new decimal(new int[] {
+            5000,
+            0,
+            0,
+            0});
+            this.CenaZaDobe.Minimum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.CenaZaDobe.Name = "CenaZaDobe";
             this.CenaZaDobe.Size = new System.Drawing.Size(120, 23);
             this.CenaZaDobe.TabIndex = 21;
+            this.CenaZaDobe.Value = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
+            this.CenaZaDobe.ValueChanged += new System.EventHandler(this.CenaZaDobe_ValueChanged);
             // 
             // GRAMOFON
             // 

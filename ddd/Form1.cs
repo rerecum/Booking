@@ -35,5 +35,10 @@ namespace ddd
 
             KosztLabel.Text = "Koszt wynosi" + (CenaZaDobe.Value * (dataWyjazdu.Value - dataPrzyjazdu.Value).Days).ToString() + "zl";
         }
+
+        private void CenaZaDobe_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
