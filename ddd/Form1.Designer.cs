@@ -46,12 +46,13 @@ namespace ddd
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.GRAMOFON = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 12);
+            this.dateTimePicker1.Location = new System.Drawing.Point(300, 12);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
             this.dateTimePicker1.TabIndex = 0;
@@ -59,7 +60,7 @@ namespace ddd
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 53);
+            this.label1.Location = new System.Drawing.Point(11, 118);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 15);
             this.label1.TabIndex = 1;
@@ -68,7 +69,7 @@ namespace ddd
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 96);
+            this.label2.Location = new System.Drawing.Point(11, 161);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 15);
             this.label2.TabIndex = 2;
@@ -77,7 +78,7 @@ namespace ddd
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 145);
+            this.label3.Location = new System.Drawing.Point(11, 210);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 15);
             this.label3.TabIndex = 3;
@@ -86,7 +87,7 @@ namespace ddd
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 191);
+            this.label4.Location = new System.Drawing.Point(11, 256);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 15);
             this.label4.TabIndex = 4;
@@ -95,7 +96,7 @@ namespace ddd
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 239);
+            this.label5.Location = new System.Drawing.Point(11, 304);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(68, 15);
             this.label5.TabIndex = 5;
@@ -104,7 +105,7 @@ namespace ddd
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 318);
+            this.label6.Location = new System.Drawing.Point(11, 383);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(122, 15);
             this.label6.TabIndex = 6;
@@ -113,7 +114,7 @@ namespace ddd
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 367);
+            this.label7.Location = new System.Drawing.Point(11, 432);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 15);
             this.label7.TabIndex = 7;
@@ -123,7 +124,7 @@ namespace ddd
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.Peru;
-            this.label9.Location = new System.Drawing.Point(292, 411);
+            this.label9.Location = new System.Drawing.Point(291, 476);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 15);
             this.label9.TabIndex = 9;
@@ -131,14 +132,14 @@ namespace ddd
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(112, 45);
+            this.textBox5.Location = new System.Drawing.Point(111, 110);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 23);
             this.textBox5.TabIndex = 14;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(112, 88);
+            this.dateTimePicker2.Location = new System.Drawing.Point(111, 153);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(218, 23);
             this.dateTimePicker2.TabIndex = 15;
@@ -146,35 +147,35 @@ namespace ddd
             // 
             // dateTimePicker3
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(112, 137);
+            this.dateTimePicker3.Location = new System.Drawing.Point(111, 202);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(218, 23);
             this.dateTimePicker3.TabIndex = 16;
             // 
             // dateTimePicker4
             // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(112, 183);
+            this.dateTimePicker4.Location = new System.Drawing.Point(111, 248);
             this.dateTimePicker4.Name = "dateTimePicker4";
             this.dateTimePicker4.Size = new System.Drawing.Size(218, 23);
             this.dateTimePicker4.TabIndex = 17;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(146, 310);
+            this.textBox1.Location = new System.Drawing.Point(145, 375);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 18;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(146, 359);
+            this.textBox2.Location = new System.Drawing.Point(145, 424);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 19;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(121, 403);
+            this.button1.Location = new System.Drawing.Point(120, 468);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 23);
             this.button1.TabIndex = 20;
@@ -183,16 +184,26 @@ namespace ddd
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(112, 231);
+            this.numericUpDown1.Location = new System.Drawing.Point(111, 296);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 23);
             this.numericUpDown1.TabIndex = 21;
+            // 
+            // GRAMOFON
+            // 
+            this.GRAMOFON.AutoSize = true;
+            this.GRAMOFON.Location = new System.Drawing.Point(327, 38);
+            this.GRAMOFON.Name = "GRAMOFON";
+            this.GRAMOFON.Size = new System.Drawing.Size(146, 15);
+            this.GRAMOFON.TabIndex = 22;
+            this.GRAMOFON.Text = "GRAMOFON FORMULARZ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 597);
+            this.Controls.Add(this.GRAMOFON);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
@@ -237,6 +248,7 @@ namespace ddd
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label GRAMOFON;
     }
 }
 
